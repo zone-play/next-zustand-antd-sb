@@ -9,19 +9,13 @@ yarn dev
 > pages/api目录映射到/api/*. 此目录中的文件被视为API 路由而不是 React 页面。
 
 
-## Step2. 安装 zustand
+## Step2. 安装 zustand（状态管理库） & fresnel（响应式库） & antd（UI库）
 
 ```base
-yarn add zustand
+yarn add zustand @artsy/fresnel antd
 ```
 
-## Step3. 安装 antd
-
-```base
-yarn add antd
-```
-
-## Step4. 安装配置 Storybook
+## Step3. 安装配置 Storybook
 
 ```base
 npx sb init
