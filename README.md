@@ -63,4 +63,10 @@ yarn storybook
 
 ```base
 import 'antd/dist/antd.css';
+
+export const parameters = {
+  ...
+  ...
+  layout: 'fullscreen'
+};
 ```
