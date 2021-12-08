@@ -12,5 +12,5 @@ const Template: ComponentStory<typeof HeaderDeskComponent> = (args) => <HeaderDe
 
 export const HeaderDesk = Template.bind({});
 HeaderDesk.args = {
-    ...LogoStories.Logo.args
+    ...LogoStories.Logo.args,
 };
